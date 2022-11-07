@@ -5,8 +5,10 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
 body {
   background-color: #e6e6e6;
+  width: 100% !important;
 }
 .mainFont {
   color: #fff;
@@ -69,9 +71,14 @@ body {
   width: 7px;
 }
 .loginBtn {
+  margin-top: -7px;
   padding: 5px 25px;
   background-color: #fff;
   border: 2px solid #59ac49;
+}
+.loginBtn:hover {
+  background-color: #59ac49;
+  color: #fff;
 }
 .borderCard {
   visibility: hidden;
@@ -494,6 +501,7 @@ footer {
 @media (max-width: 768px) {
   .searchBarCol {
     border-bottom: 1px solid black;
+    border-right: 0 !important;
   }
   .w-75 {
     width: 100% !important;

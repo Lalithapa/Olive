@@ -599,7 +599,7 @@ footer {
   }
 
   h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   p {
@@ -613,7 +613,7 @@ footer {
     flex-direction: column;
     position: fixed;
     justify-content: start;
-    top: 50px;
+    top: 100px;
     left: 0;
     background-color: #fff;
     width: 100vw;
